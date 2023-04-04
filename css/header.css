@@ -1,0 +1,22 @@
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.first-frame {
+  height: 20%;
+  background: #3d3dc0;
+}
+
+.header__body {}
+
+.header_marquee {
+  font-size: 20px;
+  color: #fff;
+  width: 550px;
+  background: -webkit-linear-gradient(left, red 30%, green 30%, green 60%, blue 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #fff;
+}
